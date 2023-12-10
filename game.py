@@ -1,6 +1,6 @@
 # Imports
 import neat
-import sys
+import pickle
 import os
 import pygame
 import random
@@ -506,8 +506,9 @@ def run(config_path: str):
     # Run the simulation
     winner = p.run(main, 50)
 
-    # Run the simulation
-    winner = p.run(main, 50)
+    # Save the winner
+    with open("winner.pkl", "wb") as f:
+        pickle.dump(winner, f)
 
 
 # Check if the file is being run directly
