@@ -16,3 +16,5 @@ $ pip install -r requirements.txt
 ```
 
 ### **4. Run the game.py file**
+
+**Credits [Tech With Tim](https://www.youtube.com/@TechWithTim)**
