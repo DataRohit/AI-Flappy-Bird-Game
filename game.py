@@ -467,14 +467,6 @@ def main(genomes, config):
                 nets.pop(idx)
                 ge.pop(idx)
 
-        # Check if the score is greater than 50
-        if score > 50:
-            # Set the flag to false
-            run = False
-
-            # Break out of the loop
-            break
-
         # Move the base
         base.move()
 
